@@ -15,9 +15,9 @@
 	<name>meliTest</name>
 	<description>Project for Meli Test</description>
 
-	<!-- properties>
+	<properties>
 		<java.version>15</java.version>
-	</properties-->
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -54,12 +54,14 @@
 			                <goal>repackage</goal>
 			            </goals>
 			            <configuration>
-				               <classifier>spring-boot</classifier>
-				               <mainClass>
+							<source>15</source>
+			                <target>15</target>
+			                <classifier>spring-boot</classifier>
+			                <mainClass>
 				                 com.mercadolibre.test.MeliTestApplication
 				               </mainClass>
-				           </configuration>
-				       </execution>
+			           </configuration>
+			       </execution>
 				 </executions>
 			</plugin>
 		</plugins>
