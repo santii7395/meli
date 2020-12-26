@@ -15,9 +15,9 @@
 	<name>meliTest</name>
 	<description>Project for Meli Test</description>
 
-	<properties>
+	<!-- properties>
 		<java.version>15</java.version>
-	</properties>
+	</properties-->
 
 	<dependencies>
 		<dependency>
