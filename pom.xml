@@ -54,8 +54,6 @@
 			                <goal>repackage</goal>
 			            </goals>
 			            <configuration>
-							<source>15</source>
-			                <target>15</target>
 			                <classifier>spring-boot</classifier>
 			                <mainClass>
 				                 com.mercadolibre.test.MeliTestApplication
